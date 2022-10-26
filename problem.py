@@ -4,8 +4,6 @@
 Code that defines and implements the distributionally robust logistic regression problem found in our paper: 
 "Stochastic Projective Splitting: Solving Saddle-Point Problems with Multiple Regularizers"
 https://arxiv.org/pdf/2106.13067.pdf
-
-Hello HPC.
 '''
 
 import numpy as np
