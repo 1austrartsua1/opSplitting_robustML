@@ -16,7 +16,7 @@ class DR_s_LR:
         self.y = y # labels
         self.delta = delta # wasserstein ball radius
         self.kappa = kappa # wasserstein metric constant
-        self.l1coef = l1coef # lr regularizer constant
+        self.l1coef = l1coef # l1 regularizer constant
         self.n,self.d = X.shape
         self.gamma_start = self.d+1
         self.num_var = 1 + self.d + self.n
