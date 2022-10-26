@@ -49,7 +49,7 @@ class DR_s_LR:
         return out
 
 
-    def getStochasticUpdate(self,batchsz,z,reuseBatch):
+    def getStochasticUpdate(self,batchsz,z,reuseBatch=False):
         grad = np.zeros(1+self.d+self.n)
 
         if batchsz == "full":
