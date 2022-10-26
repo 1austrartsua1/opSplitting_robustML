@@ -11,7 +11,7 @@ from scipy.special import expit
 from scipy.sparse.linalg import svds
 
 class DR_s_LR:
-    def __init__(self,X,y,delta,kappa,l1coef):
+    def __init__(self,X,y,delta,kappa,l1coef=None):
         self.X = X # regression matrix
         self.y = y # labels
         self.delta = delta # wasserstein ball radius
